@@ -1,0 +1,15 @@
+# Files Cloud Build does not need (keeps the upload small and free of state).
+.git
+.gitignore
+.env
+.venv
+__pycache__/
+*.py[cod]
+*.db
+.pytest_cache/
+terraform/
+tests/
+patches/
+docs/
+.codemender/
+docker-compose.yml

@@ -1,0 +1,18 @@
+--- a/app/notes.py
++++ b/app/notes.py
+@@ -20,9 +20,12 @@
+ 
+ def read_note(name: str, notes_dir: Optional[str] = None) -> str:
+     """Return the text of a note file from the notes directory."""
+-    base = notes_dir or NOTES_DIR
+-    # VULNERABLE (CWE-22): "../" sequences in name escape the notes dir.
+-    path = os.path.join(base, name)
++    base = os.path.realpath(notes_dir or NOTES_DIR)
++    # Resolve "..", symlinks and absolute paths, then require the result to
++    # stay inside the notes directory.
++    path = os.path.realpath(os.path.join(base, name))
++    if os.path.commonpath([base, path]) != base:
++        raise NoteNotFound(name)
+     if not os.path.isfile(path):
+         raise NoteNotFound(name)
+     with open(path, encoding="utf-8") as handle:

@@ -1,0 +1,18 @@
+--- a/app/db.py
++++ b/app/db.py
+@@ -291,12 +291,12 @@
+     """Return the catalog items that come from one source (youtube, podcast, website)."""
+     conn = _connect(db_path)
+     try:
+-        # VULNERABLE (CWE-89): user input is interpolated into the SQL text.
++        # Parameterized query: the driver binds source as data, never as SQL.
+         query = (
+             f"SELECT {ITEM_COLUMNS} "
+-            f"FROM items WHERE source = '{source}' ORDER BY id"
++            "FROM items WHERE source = ? ORDER BY id"
+         )
+-        rows = _run(conn, query)
++        rows = _run(conn, query, (source,))
+         return [_to_item(row) for row in rows]
+     finally:
+         conn.close()

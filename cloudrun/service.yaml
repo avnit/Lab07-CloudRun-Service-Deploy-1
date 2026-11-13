@@ -1,0 +1,100 @@
+# =====================================================================
+# INTENTIONALLY VULNERABLE CONFIG - LAB / SANDBOX USE ONLY.
+# CM-0003 / CWE-798 + CWE-250: the MySQL root password is a plaintext
+# env value in this file, and the app connects to MySQL as root.
+# Expected fix: store the password in Secret Manager and reference it
+# with valueFrom.secretKeyRef; give the app a least-privilege DB user.
+# =====================================================================
+#
+# One Cloud Run service, two containers:
+#   web    Flask + gunicorn, receives all HTTP traffic on :8080
+#   mysql  MySQL sidecar, reachable from `web` on 127.0.0.1:3306
+#
+# The MySQL data directory is an in-memory volume, so the database is
+# EPHEMERAL: every new instance starts empty and `web` re-seeds it from
+# data/sources.json + data/catalog.json. maxScale is 1 because each instance
+# has its own private database. For durable data use Cloud SQL instead.
+#
+# ${IMAGE} is substituted by scripts/deploy_cloud_run.sh.
+apiVersion: serving.knative.dev/v1
+kind: Service
+metadata:
+  name: watchlist
+  labels:
+    app: antigravity-hermes-watchlist
+    purpose: security-lab
+  annotations:
+    run.googleapis.com/ingress: all
+spec:
+  template:
+    metadata:
+      annotations:
+        autoscaling.knative.dev/minScale: "1"
+        autoscaling.knative.dev/maxScale: "1"
+        run.googleapis.com/execution-environment: gen2
+        # Keep CPU allocated between requests so mysqld is never frozen.
+        run.googleapis.com/cpu-throttling: "false"
+        # Start (and health-check) mysql before web.
+        run.googleapis.com/container-dependencies: '{"web":["mysql"]}'
+    spec:
+      containerConcurrency: 80
+      timeoutSeconds: 120
+      containers:
+        - name: web
+          image: ${IMAGE}
+          ports:
+            - name: http1
+              containerPort: 8080
+          env:
+            - name: DB_HOST
+              value: "127.0.0.1"
+            - name: DB_PORT
+              value: "3306"
+            - name: DB_NAME
+              value: watchlist
+            - name: DB_USER
+              value: root
+            # VULNERABLE (CWE-798): plaintext credential. Lab-only value.
+            - name: DB_PASSWORD
+              value: watchlist-lab-root-pw
+            # Pull the latest content at start-up and every N minutes (0 = off).
+            - name: REFRESH_INTERVAL_MINUTES
+              value: "60"
+          resources:
+            limits:
+              cpu: "1"
+              memory: 512Mi
+          startupProbe:
+            httpGet:
+              path: /health
+              port: 8080
+            periodSeconds: 5
+            failureThreshold: 24
+        - name: mysql
+          image: mysql:8.4.3
+          env:
+            - name: MYSQL_DATABASE
+              value: watchlist
+            # VULNERABLE (CWE-798): plaintext credential. Lab-only value.
+            - name: MYSQL_ROOT_PASSWORD
+              value: watchlist-lab-root-pw
+          resources:
+            limits:
+              cpu: "1"
+              memory: 2Gi
+          volumeMounts:
+            - name: mysql-data
+              mountPath: /var/lib/mysql
+          # During first-boot initialisation mysqld runs with networking off,
+          # so port 3306 only opens once the real server is ready.
+          startupProbe:
+            tcpSocket:
+              port: 3306
+            initialDelaySeconds: 5
+            periodSeconds: 5
+            failureThreshold: 36
+      volumes:
+        - name: mysql-data
+          emptyDir:
+            medium: Memory
+            sizeLimit: 1Gi

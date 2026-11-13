@@ -1,0 +1,34 @@
+# Local stand-in for the Cloud Run service: the same web image next to MySQL.
+#   cp .env.example .env   # then set DB_PASSWORD
+#   docker compose up --build
+#   open http://localhost:8080/
+# INTENTIONALLY VULNERABLE app - published on 127.0.0.1 only.
+services:
+  web:
+    build: .
+    ports:
+      - "127.0.0.1:8080:8080"
+    environment:
+      DB_HOST: mysql
+      DB_PORT: "3306"
+      DB_NAME: watchlist
+      DB_USER: root
+      DB_PASSWORD: ${DB_PASSWORD:?set DB_PASSWORD in .env}
+      # Pull the latest content at start-up and every N minutes (0 = off).
+      REFRESH_INTERVAL_MINUTES: ${REFRESH_INTERVAL_MINUTES:-60}
+      YOUTUBE_API_KEY: ${YOUTUBE_API_KEY:-}
+    depends_on:
+      mysql:
+        condition: service_healthy
+  mysql:
+    image: mysql:8.4.3
+    environment:
+      MYSQL_DATABASE: watchlist
+      MYSQL_ROOT_PASSWORD: ${DB_PASSWORD:?set DB_PASSWORD in .env}
+    tmpfs:
+      - /var/lib/mysql
+    healthcheck:
+      test: ["CMD-SHELL", "mysqladmin ping -h 127.0.0.1 -uroot -p\"$$MYSQL_ROOT_PASSWORD\" --silent"]
+      interval: 5s
+      timeout: 5s
+      retries: 30

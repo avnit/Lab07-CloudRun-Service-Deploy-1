@@ -1,0 +1,20 @@
+# Copy to terraform.tfvars and fill in. Keep the real file out of git.
+
+project_id = "your-lab-project"
+region     = "us-central1"
+
+# Leave unset to build the image from this folder with Cloud Build.
+# image = "us-central1-docker.pkg.dev/your-lab-project/watchlist/watchlist:manual"
+
+# Leave unset to generate a random MySQL root password.
+# db_root_password = "..."
+
+# Pull the latest content at start-up and then every N minutes (0 = off).
+refresh_interval_minutes = 60
+
+# YouTube Data API v3 key for the fetcher (stored in Secret Manager).
+# Leave unset to skip YouTube; podcasts and web pages still refresh.
+# youtube_api_key = "..."
+
+# The app is intentionally vulnerable. Only set this in a throwaway lab project.
+allow_unauthenticated = false

@@ -1,0 +1,7 @@
+# Runtime dependencies of the Cloud Run `web` container.
+flask==3.0.3
+gunicorn==23.0.0
+# MySQL driver. cryptography is needed for MySQL 8's caching_sha2_password
+# authentication over a non-TLS connection (the localhost sidecar).
+PyMySQL==1.1.1
+cryptography==43.0.3

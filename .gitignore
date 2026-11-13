@@ -1,0 +1,27 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+.venv/
+node_modules/
+*.log
+.env
+*.db
+.pytest_cache/
+
+# --- Terraform ---
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraformrc
+terraform.rc
+.terraform.lock.hcl
+
+# Secrets: keep real tfvars out of git, track only the examples
+*.tfvars
+!*.tfvars.example

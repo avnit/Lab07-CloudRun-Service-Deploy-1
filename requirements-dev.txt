@@ -1,0 +1,4 @@
+# Local test tooling. The CodeMender sandbox image already bakes in
+# pytest and flask; PyMySQL is not needed there (tests use SQLite).
+-r requirements.txt
+pytest==8.3.3

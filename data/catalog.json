@@ -1,0 +1,773 @@
+{
+  "generated_at": "2026-11-12 05:34 UTC",
+  "note": "Snapshot of recent Antigravity and Hermes content from YouTube, podcasts and the web. Run scripts/fetch_media.py (or the backend's auto-refresh) to update it.",
+  "items": [
+    {
+      "id": "yt-3kZPuc7R4gw",
+      "title": "Google Antigravity Is No Longer Just for CODING?!",
+      "source": "youtube",
+      "creator": "Julian Goldie SEO",
+      "topics": [
+        "Antigravity"
+      ],
+      "url": "https://www.youtube.com/watch?v=3kZPuc7R4gw",
+      "published_at": "2026-11-11",
+      "duration_seconds": 490,
+      "description": "Google Antigravity isn’t just for coders anymore. Version 2.30 adds a new “Knowledge Work” layout that hides the terminal and code but keeps the same powerful AI agent. Here’s how…"
+    },
+    {
+      "id": "yt-f_NfbjaSJ-k",
+      "title": "The Hermes Mobile App is AWESOME",
+      "source": "youtube",
+      "creator": "Alex Finn",
+      "topics": [
+        "Hermes"
+      ],
+      "url": "https://www.youtube.com/watch?v=f_NfbjaSJ-k",
+      "published_at": "2026-11-11",
+      "duration_seconds": 823,
+      "description": "The Hermes Agent mobile app is awesome 0:33 Walkthrough of the app 4:57 When to use this instead of Grok 10:48 When NOT to use Hermes"
+    },
+    {
+      "id": "pod-c8a0257973282c62",
+      "title": "My FULL Hermes Agent Setup (HermesOS)",
+      "source": "podcast",
+      "creator": "Tina Huang",
+      "topics": [
+        "Hermes"
+      ],
+      "url": "https://podcasts.apple.com/us/podcast/my-full-hermes-agent-setup-hermesos/id1811026238?i=1000786058329",
+      "published_at": "2026-11-11",
+      "duration_seconds": 1179,
+      "description": "Podcast episode from Tina Huang."
+    },
+    {
+      "id": "pod-3d88ede82c5c3deb",
+      "title": "Full Hermes Agent Set-Up For Beginners in 2026! (24/7 AI Agent)",
+      "source": "podcast",
+      "creator": "AI Foundations",
+      "topics": [
+        "Hermes"
+      ],
+      "url": "https://podcasts.apple.com/us/podcast/full-hermes-agent-set-up-for-beginners-in-2026-24-7-ai-agent/id6826121272?i=1000797842161",
+      "published_at": "2026-11-11",
+      "duration_seconds": 2526,
+      "description": "Podcast episode from AI Foundations."
+    },
+    {
+      "id": "yt-RwvHbdHeeqU",
+      "title": "Building Antigravity Demos with Antigravity",
+      "source": "youtube",
+      "creator": "Google Antigravity",
+      "topics": [
+        "Antigravity"
+      ],
+      "url": "https://www.youtube.com/watch?v=RwvHbdHeeqU",
+      "published_at": "2026-11-10",
+      "duration_seconds": 76,
+      "description": "Google Antigravity is an agent-first software development platform designed to help developers build, orchestrate, and monitor AI agents. It connects AI agents directly to code…"
+    },
+    {
+      "id": "pod-11d300ecb8f92943",
+      "title": "The EXACT System to Build AI Employees with Hermes Agent",
+      "source": "podcast",
+      "creator": "AI Foundations",
+      "topics": [
+        "Hermes"
+      ],
+      "url": "https://podcasts.apple.com/us/podcast/the-exact-system-to-build-ai-employees-with-hermes-agent/id6826121272?i=1000797737531",
+      "published_at": "2026-11-10",
+      "duration_seconds": 3420,
+      "description": "Podcast episode from AI Foundations."
+    },
+    {
+      "id": "web-f0073cd7623bc184",
+      "title": "Hermes Agent v0.23.1 — release notes",
+      "source": "website",
+      "creator": "Nous Research on GitHub",
+      "topics": [
+        "Hermes"
+      ],
+      "url": "https://github.com/NousResearch/hermes-agent/releases/tag/v0.23.1",
+      "published_at": "2026-11-10",
+      "duration_seconds": null,
+      "description": "Official release notes for the latest Hermes Agent patch release."
+    },
+    {
+      "id": "pod-c8e9a857375ec44e",
+      "title": "Hermes Agent Hearth Update is MASSIVE! 🤯 (WebApp + Rewind)",
+      "source": "podcast",
+      "creator": "AI News Today | Julian Goldie Podcast",
+      "topics": [
+        "Hermes"
+      ],
+      "url": "https://podcasts.apple.com/us/podcast/hermes-agent-hearth-update-is-massive-webapp-rewind/id1851256047?i=1000800859953",
+      "published_at": "2026-11-09",
+      "duration_seconds": 817,
+      "description": "Podcast episode from AI News Today | Julian Goldie Podcast."
+    },
+    {
+      "id": "yt-lViXvhfTV2Y",
+      "title": "Google Antigravity Just FIXED AI's Biggest Problem (The Upgrade We've Been WAITING For?)",
+      "source": "youtube",
+      "creator": "iampauljames",
+      "topics": [
+        "Antigravity"
+      ],
+      "url": "https://www.youtube.com/watch?v=lViXvhfTV2Y",
+      "published_at": "2026-11-08",
+      "duration_seconds": 601,
+      "description": "Google's new remote agents finish entire client builds while your laptop is closed… Nobody is using Antigravity like this yet. Grab the exact setup I use here 👉 ⚠️ Babysitting AI…"
+    },
+    {
+      "id": "pod-458dd26263d62250",
+      "title": "I Tested Hermes AgentOS – Here's EVERYTHING It Can Do!",
+      "source": "podcast",
+      "creator": "The AI Firehose",
+      "topics": [
+        "Hermes"
+      ],
+      "url": "https://podcasts.apple.com/us/podcast/i-tested-hermes-agentos-heres-everything-it-can-do/id1896039090?i=1000800612574",
+      "published_at": "2026-11-08",
+      "duration_seconds": 463,
+      "description": "Podcast episode from The AI Firehose."
+    },
+    {
+      "id": "web-de13e2c3c4600e27",
+      "title": "Nous Research ships Hermes v0.23 with one gateway for every conversation",
+      "source": "website",
+      "creator": "RuntimeWire",
+      "topics": [
+        "Hermes"
+      ],
+      "url": "https://runtimewire.com/article/nous-research-hermes-agent-v023-unified-gateway-browser-exec",
+      "published_at": "2026-11-08",
+      "duration_seconds": null,
+      "description": "Coverage of the unified gateway and the move from the legacy browser tools to browser_exec."
+    },
+    {
+      "id": "pod-8d3b3a820c9d255e",
+      "title": "Google Antigravity + Gemini Argon 4 is INSANE!",
+      "source": "podcast",
+      "creator": "AI News Today | Julian Goldie Podcast",
+      "topics": [
+        "Antigravity"
+      ],
+      "url": "https://podcasts.apple.com/us/podcast/google-antigravity-gemini-argon-4-is-insane/id1851256047?i=1000800411117",
+      "published_at": "2026-11-07",
+      "duration_seconds": 746,
+      "description": "Podcast episode from AI News Today | Julian Goldie Podcast."
+    },
+    {
+      "id": "web-952b6bef926c648a",
+      "title": "Google Antigravity gets Remote Agents, Voice Mode, more",
+      "source": "website",
+      "creator": "Thurrott",
+      "topics": [
+        "Antigravity"
+      ],
+      "url": "https://www.thurrott.com/dev/343617/google-antigravity-gets-remote-agents-voice-mode-more",
+      "published_at": "2026-11-07",
+      "duration_seconds": null,
+      "description": "Another take on the Antigravity 2.29 update."
+    },
+    {
+      "id": "yt-9Y-bOQkXh-I",
+      "title": "Voice mode in Google Antigravity",
+      "source": "youtube",
+      "creator": "Google Antigravity",
+      "topics": [
+        "Antigravity"
+      ],
+      "url": "https://www.youtube.com/watch?v=9Y-bOQkXh-I",
+      "published_at": "2026-11-06",
+      "duration_seconds": 190,
+      "description": "Voice mode in Antigravity is here. Enabled by the Gemini Live model, you can use your voice to plan, steer code changes, and approve permissions out loud. Have a live conversation…"
+    },
+    {
+      "id": "web-3ac2080e03a590d4",
+      "title": "Big Google Antigravity update brings Remote Agents, Voice Mode, and redesign",
+      "source": "website",
+      "creator": "9to5Google",
+      "topics": [
+        "Antigravity"
+      ],
+      "url": "https://9to5google.com/2026/11/06/google-antigravity-remote-agents-voice-mode/",
+      "published_at": "2026-11-06",
+      "duration_seconds": null,
+      "description": "The November update: cloud Remote Agents that keep working when your laptop is closed, and a Gemini Live voice mode."
+    },
+    {
+      "id": "yt-_YIAcXZg9Yk",
+      "title": "Remote Agents in Google Antigravity",
+      "source": "youtube",
+      "creator": "Google Antigravity",
+      "topics": [
+        "Antigravity"
+      ],
+      "url": "https://www.youtube.com/watch?v=_YIAcXZg9Yk",
+      "published_at": "2026-11-05",
+      "duration_seconds": 60,
+      "description": "We want Antigravity to be working for you all the time. We’ve been rolling out remote agents this week. Your tasks run in independent cloud virtual machines. Fire off a task, step…"
+    },
+    {
+      "id": "yt-oBaT-wo9RTY",
+      "title": "Google Antigravity Explained for Normal People (Full Tutorial)",
+      "source": "youtube",
+      "creator": "Paul J Lipsky",
+      "topics": [
+        "Antigravity"
+      ],
+      "url": "https://www.youtube.com/watch?v=oBaT-wo9RTY",
+      "published_at": "2026-11-05",
+      "duration_seconds": 1377,
+      "description": "Learn how to use Google Antigravity to build apps, games, images, and motion graphics without coding experience. I'll walk you through the setup, project folders, model choices…"
+    },
+    {
+      "id": "web-f89692416bd5deec",
+      "title": "Hermes Agent v0.23.0 — The Hearth Release",
+      "source": "website",
+      "creator": "Nous Research on GitHub",
+      "topics": [
+        "Hermes"
+      ],
+      "url": "https://github.com/NousResearch/hermes-agent/releases/tag/v0.23.0",
+      "published_at": "2026-11-05",
+      "duration_seconds": null,
+      "description": "Official release notes: a desktop app in a browser tab, one gateway shared by CLI, desktop and messaging, and a /rewind command."
+    },
+    {
+      "id": "web-da30f7f406ccd8e4",
+      "title": "Nous Research ships Hermes Agent v0.23.0 “The Hearth”",
+      "source": "website",
+      "creator": "AICoder",
+      "topics": [
+        "Hermes"
+      ],
+      "url": "https://www.aicoder.com/news/news-20261105-nous-hermes-agent-v0-23-0-hearth-webapp-unified-gateway",
+      "published_at": "2026-11-05",
+      "duration_seconds": null,
+      "description": "News write-up of the v0.23.0 release: browser webapp desktop, unified gateway sessions and a larger plugin catalog."
+    },
+    {
+      "id": "web-6f96f3155b8b6199",
+      "title": "What changed in Google Antigravity's November update",
+      "source": "website",
+      "creator": "DEV Community",
+      "topics": [
+        "Antigravity"
+      ],
+      "url": "https://dev.to/moruku36/what-changed-in-google-antigravitys-november-update-remote-agents-voice-mode-and-a-native-1ph9",
+      "published_at": "2026-11-04",
+      "duration_seconds": null,
+      "description": "A developer's walkthrough of Remote Agents, Voice Mode and the native Jupyter viewer."
+    },
+    {
+      "id": "yt-afQqqcmLUWw",
+      "title": "Accelerating cheminformatics with Google Antigravity",
+      "source": "youtube",
+      "creator": "Google Antigravity",
+      "topics": [
+        "Antigravity"
+      ],
+      "url": "https://www.youtube.com/watch?v=afQqqcmLUWw",
+      "published_at": "2026-11-03",
+      "duration_seconds": 280,
+      "description": "Using the Science plugin in Google Antigravity instantly transforms it into an agentic science workbench, giving your agents fluency in the tools, models, and databases that…"
+    },
+    {
+      "id": "yt-7HTRAsVX10E",
+      "title": "Inside Hermes Agent Traces with NeMo Relay | Nemotron Labs",
+      "source": "youtube",
+      "creator": "NVIDIA Developer",
+      "topics": [
+        "Hermes"
+      ],
+      "url": "https://www.youtube.com/watch?v=7HTRAsVX10E",
+      "published_at": "2026-11-03",
+      "duration_seconds": 3100,
+      "description": "Join NVIDIA and Nous Research for a live walkthrough of how agent traces turn opaque tool-use workflows into evidence developers can inspect and improve. Using Hermes Agent as a…"
+    },
+    {
+      "id": "web-a85dd7d159197d6d",
+      "title": "Hermes Mobile: Nous Research's Hermes Agent app, beta guide",
+      "source": "website",
+      "creator": "Sumus",
+      "topics": [
+        "Hermes"
+      ],
+      "url": "https://sumus.im/blog/hermes-mobile",
+      "published_at": "2026-11-03",
+      "duration_seconds": null,
+      "description": "A guide to what the Hermes Mobile beta does and how to get access."
+    },
+    {
+      "id": "yt-UO2mTQMlB-8",
+      "title": "New Updates in Google Antigravity | Episode 9",
+      "source": "youtube",
+      "creator": "Google Antigravity",
+      "topics": [
+        "Antigravity"
+      ],
+      "url": "https://www.youtube.com/watch?v=UO2mTQMlB-8",
+      "published_at": "2026-11-02",
+      "duration_seconds": 289,
+      "description": "Google Antigravity is an agent-first software development platform designed to help developers build, orchestrate, and monitor AI agents. It connects AI agents directly to code…"
+    },
+    {
+      "id": "yt-ez7UvfDCIJ0",
+      "title": "Hermes Agent: Build One AI Agent, Sell It to Every Client ($8/mo Each)",
+      "source": "youtube",
+      "creator": "Derek Cheung | AI Agents Automation",
+      "topics": [
+        "Hermes"
+      ],
+      "url": "https://www.youtube.com/watch?v=ez7UvfDCIJ0",
+      "published_at": "2026-11-02",
+      "duration_seconds": 732,
+      "description": "Learn how to build a vertical AI agent with Hermes Agent once, then deploy it to client after client, each in its own isolated Upstash Box. In this step-by-step tutorial, I build…"
+    },
+    {
+      "id": "yt-gcQCedWUHkE",
+      "title": "7 Hermes Agent Skills You NEED to Install Today",
+      "source": "youtube",
+      "creator": "Parker Prompts",
+      "topics": [
+        "Hermes"
+      ],
+      "url": "https://www.youtube.com/watch?v=gcQCedWUHkE",
+      "published_at": "2026-10-31",
+      "duration_seconds": 947,
+      "description": "Host Hermes Agent on Your Own Server 👉 I'm Parker. I started this YouTube Channel with the goal to learn more about AI myself and to then pass on the knowledge to anyone willing…"
+    },
+    {
+      "id": "web-adc130e89ff23659",
+      "title": "Nous Research opens the official Hermes Agent mobile beta",
+      "source": "website",
+      "creator": "AICoder",
+      "topics": [
+        "Hermes"
+      ],
+      "url": "https://aicoder.com/news/news-20261031-nous-hermes-agent-mobile-beta-ios-testflight-android-firebase-own-gateway",
+      "published_at": "2026-10-31",
+      "duration_seconds": null,
+      "description": "The Hermes Mobile beta for iOS and Android: a phone client for your own gateway to approve tools and manage routines."
+    },
+    {
+      "id": "yt-f2MKsvXcOG4",
+      "title": "Google Antigravity Livestream: Building automations",
+      "source": "youtube",
+      "creator": "Google Antigravity",
+      "topics": [
+        "Antigravity"
+      ],
+      "url": "https://www.youtube.com/watch?v=f2MKsvXcOG4",
+      "published_at": "2026-10-28",
+      "duration_seconds": 2714,
+      "description": "New updates, tips, and Q&A Google Antigravity is an agent-first software development platform designed to help developers build, orchestrate, and monitor AI agents. It connects AI…"
+    },
+    {
+      "id": "yt-q5RagIqBtjc",
+      "title": "Master Hermes Agent in 20 Minutes (Beginner Tutorial)",
+      "source": "youtube",
+      "creator": "Metics Media",
+      "topics": [
+        "Hermes"
+      ],
+      "url": "https://www.youtube.com/watch?v=q5RagIqBtjc",
+      "published_at": "2026-10-28",
+      "duration_seconds": 1276,
+      "description": "By the end of this video, your own AI agent will run 24/7, check what you care about, and text you when something changes. This Hermes Agent tutorial for beginners gets you there…"
+    },
+    {
+      "id": "yt-S8fc9na4pA8",
+      "title": "Everything New in Hermes Agent (Full Setup Guide)",
+      "source": "youtube",
+      "creator": "Tech With Tim",
+      "topics": [
+        "Hermes"
+      ],
+      "url": "https://www.youtube.com/watch?v=S8fc9na4pA8",
+      "published_at": "2026-10-27",
+      "duration_seconds": 2530,
+      "description": "This video will teach you 90% of Hermes Agent and everything you need to know. A lot has changed since my last videos, and Hermes has become even more powerful, so in about 42…"
+    },
+    {
+      "id": "yt-wETSpF4ef6E",
+      "title": "Hermes Agent Tutorial for Beginners (FREE & Local)",
+      "source": "youtube",
+      "creator": "Kevin Stratvert",
+      "topics": [
+        "Hermes"
+      ],
+      "url": "https://www.youtube.com/watch?v=wETSpF4ef6E",
+      "published_at": "2026-10-23",
+      "duration_seconds": 613,
+      "description": "Learn how to use Hermes AI Agent on Windows, from installation and local AI setup to browser tasks, memory, reusable skills, and scheduled automation. Follow along as I use Hermes…"
+    },
+    {
+      "id": "yt-2NMlmd1uG1U",
+      "title": "Google Antigravity Tutorial | Your Complete Beginner's Guide to Antigravity",
+      "source": "youtube",
+      "creator": "Tasia Custode",
+      "topics": [
+        "Antigravity"
+      ],
+      "url": "https://www.youtube.com/watch?v=2NMlmd1uG1U",
+      "published_at": "2026-10-22",
+      "duration_seconds": 818,
+      "description": "00:00 - What is Google Antigravity 00:29 - Downloading the App 02:42 - Creating Projects and Building an App 10:54 - Creating Automations 👀 WATCH OTHER GOOGLE VIDEOS: Sony ZV1…"
+    },
+    {
+      "id": "yt-aUVC9BwoLPg",
+      "title": "Build Your First Local AI Agent? 🧠 Hermes Agent Setup (Free & Private)",
+      "source": "youtube",
+      "creator": "Wanderloots",
+      "topics": [
+        "Hermes"
+      ],
+      "url": "https://www.youtube.com/watch?v=aUVC9BwoLPg",
+      "published_at": "2026-10-17",
+      "duration_seconds": 1217,
+      "description": "Normally, local model setup can be confusing, but Hermes now automatically checks your hardware and suggests the best model for you to run. This removes a lot of the confusion for…"
+    },
+    {
+      "id": "yt-o-vqgLUUBaw",
+      "title": "Google Antigravity Livestream: Behind the Product and Gemini 4 Argon",
+      "source": "youtube",
+      "creator": "Google Antigravity",
+      "topics": [
+        "Antigravity"
+      ],
+      "url": "https://www.youtube.com/watch?v=o-vqgLUUBaw",
+      "published_at": "2026-10-14",
+      "duration_seconds": 2346,
+      "description": "New updates, tips, and Q&A Google Antigravity is an agent-first software development platform designed to help developers build, orchestrate, and monitor AI agents. It connects AI…"
+    },
+    {
+      "id": "yt-irq-elQEHuY",
+      "title": "Google Antigravity 2.0 Slash Commands Explained (Beginner's Guide)",
+      "source": "youtube",
+      "creator": "OOP Coders",
+      "topics": [
+        "Antigravity"
+      ],
+      "url": "https://www.youtube.com/watch?v=irq-elQEHuY",
+      "published_at": "2026-10-13",
+      "duration_seconds": 1036,
+      "description": "Learn how to use slash commands in Google Antigravity 2.0 Desktop to plan projects, build applications, automate tasks, and improve your AI coding workflow. In this…"
+    },
+    {
+      "id": "yt-XNcKUSL1CTE",
+      "title": "The Ultimate Beginner’s Guide to Hermes Agent",
+      "source": "youtube",
+      "creator": "Metics Media",
+      "topics": [
+        "Hermes"
+      ],
+      "url": "https://www.youtube.com/watch?v=XNcKUSL1CTE",
+      "published_at": "2026-10-08",
+      "duration_seconds": 6217,
+      "description": "Get your own AI agent running 24/7, then climb six levels. Message it on Telegram, connect Google Drive, train it, automate a weekly chore, and give it a team. This Hermes Agent…"
+    },
+    {
+      "id": "pod-50a92506ab9fc379",
+      "title": "Nous Research’s Hermes for Businesses, Microsoft Agent Lightning, and Atlassian’s OpenAI Partnership",
+      "source": "podcast",
+      "creator": "UpNext AI",
+      "topics": [
+        "Hermes"
+      ],
+      "url": "https://podcasts.apple.com/us/podcast/nous-researchs-hermes-for-businesses-microsoft-agent/id1896198793?i=1000793841966",
+      "published_at": "2026-10-08",
+      "duration_seconds": 458,
+      "description": "Nous Research is launching Hermes for Businesses after a Series B round, Microsoft Research has released Agent Lightning version one, and Atlassian and OpenAI are expanding Rovo’s…"
+    },
+    {
+      "id": "web-111136a5fa926271",
+      "title": "Nous Research raises $90M to take its open-source Hermes agent into business",
+      "source": "website",
+      "creator": "RuntimeWire",
+      "topics": [
+        "Hermes"
+      ],
+      "url": "https://runtimewire.com/article/nous-research-90m-series-b-hermes-agent",
+      "published_at": "2026-10-07",
+      "duration_seconds": null,
+      "description": "Funding news and what it means for the Hermes Agent roadmap."
+    },
+    {
+      "id": "web-a0888c9cd00b9166",
+      "title": "Google prepares Antigravity for Gemini 4 Argon and Concierge",
+      "source": "website",
+      "creator": "TestingCatalog",
+      "topics": [
+        "Antigravity"
+      ],
+      "url": "https://www.testingcatalog.com/google-prepares-antigravity-for-gemini-4-argon-and-concierge/",
+      "published_at": "2026-10-07",
+      "duration_seconds": null,
+      "description": "Early signs in the app of upcoming model and subscription changes."
+    },
+    {
+      "id": "yt-4rwvcOu1JxE",
+      "title": "How to Build an Android App on Antigravity",
+      "source": "youtube",
+      "creator": "Google Antigravity",
+      "topics": [
+        "Antigravity"
+      ],
+      "url": "https://www.youtube.com/watch?v=4rwvcOu1JxE",
+      "published_at": "2026-10-06",
+      "duration_seconds": 294,
+      "description": "Watch how Antigravity takes an Android app from prompt to real device. Using the Stitch MCP and the Android CLI plugin, the agent pulls your designs, builds the native Jetpack…"
+    },
+    {
+      "id": "yt-VXUoi5V9J2o",
+      "title": "7 Hermes Agent Use Cases That Run My Entire Life",
+      "source": "youtube",
+      "creator": "Sharbel A.",
+      "topics": [
+        "Hermes"
+      ],
+      "url": "https://www.youtube.com/watch?v=VXUoi5V9J2o",
+      "published_at": "2026-10-04",
+      "duration_seconds": 865,
+      "description": "I connected Hermes Agent to my meetings, inbox, client conversations, business monitoring, shared memory, and phone. It now turns meeting transcripts into assigned Notion tasks…"
+    },
+    {
+      "id": "pod-4913de18dceb5d7a",
+      "title": "Personal AI Agents That Act for You: Hermes, OpenClaw, Grok Bot and Muse",
+      "source": "podcast",
+      "creator": "AI Odyssey",
+      "topics": [
+        "Hermes"
+      ],
+      "url": "https://podcasts.apple.com/us/podcast/personal-ai-agents-that-act-for-you-hermes-openclaw/id1799526731?i=1000791881393",
+      "published_at": "2026-09-27",
+      "duration_seconds": 1093,
+      "description": "We compare access, practical uses, and permissions. We also cover the unconfirmed OpenAI DevDay rumor without treating it as a launch. This AI Odyssey episode was created with…"
+    },
+    {
+      "id": "yt-ixAjUt9Uu3o",
+      "title": "How Complete Beginners Master 85% of Antigravity in 19 minutes",
+      "source": "youtube",
+      "creator": "Mikey No Code",
+      "topics": [
+        "Antigravity"
+      ],
+      "url": "https://www.youtube.com/watch?v=ixAjUt9Uu3o",
+      "published_at": "2026-09-24",
+      "duration_seconds": 1179,
+      "description": "In this video, I show you how complete beginners can master 85% of Antigravity in just 14 minutes. You'll learn the fundamentals of Google Antigravity, follow a practical Google…"
+    },
+    {
+      "id": "pod-cbd2468455bbac62",
+      "title": "Google Antigravity: 9 Ships in 21 Days, $0 to Download",
+      "source": "podcast",
+      "creator": "Stewart Vickers AI",
+      "topics": [
+        "Antigravity"
+      ],
+      "url": "https://podcasts.apple.com/us/podcast/google-antigravity-9-ships-in-21-days-%240-to-download/id6810591228?i=1000788820337",
+      "published_at": "2026-09-04",
+      "duration_seconds": 428,
+      "description": "What you'll get out of the next 7 minutes:- Which paid coding seat (Cursor, Copilot, Claude Max) Antigravity actually replaces this week- The 9-ship, 21-day changelog run with…"
+    },
+    {
+      "id": "pod-6b280b607585034f",
+      "title": "How Is Google Antigravity Accelerating Enterprise AI Development at Datamatics",
+      "source": "podcast",
+      "creator": "Datamatics ThoughtPod",
+      "topics": [
+        "Antigravity"
+      ],
+      "url": "https://podcasts.apple.com/us/podcast/how-is-google-antigravity-accelerating-enterprise-ai/id1797707726?i=1000786953537",
+      "published_at": "2026-08-31",
+      "duration_seconds": 238,
+      "description": "In this episode of the podcast, we explore how Google Antigravity is reshaping enterprise AI development by accelerating software engineering workflows, enabling seamless…"
+    },
+    {
+      "id": "pod-281c7bb7219669db",
+      "title": "Google Antigravity Mastery Series - Subconcept 5.1: The Antigravity Python SDK (google.antigravity)",
+      "source": "podcast",
+      "creator": "AI Intuition",
+      "topics": [
+        "Antigravity"
+      ],
+      "url": "https://podcasts.apple.com/us/podcast/google-antigravity-mastery-series-subconcept-5-1-the/id1828126554?i=1000786341410",
+      "published_at": "2026-08-27",
+      "duration_seconds": 2031,
+      "description": "Scripting autonomous behavior programmatically, defining Pydantic schemas for structured JSON output, and running sandboxed custom execution blocks."
+    },
+    {
+      "id": "pod-c03558d3839c7100",
+      "title": "Google Antigravity Mastery Series - Subconcept 2.1: The OPAV (Observe-Plan-Act-Verify) Loop",
+      "source": "podcast",
+      "creator": "AI Intuition",
+      "topics": [
+        "Antigravity"
+      ],
+      "url": "https://podcasts.apple.com/us/podcast/google-antigravity-mastery-series-subconcept-2-1-the/id1828126554?i=1000786323113",
+      "published_at": "2026-08-27",
+      "duration_seconds": 1311,
+      "description": "Understanding the internal step-by-step state machine of how the CLI processes a command from start to finish."
+    },
+    {
+      "id": "yt-1CLc-VeEivk",
+      "title": "My FULL Hermes Agent Setup (HermesOS)",
+      "source": "youtube",
+      "creator": "Tina Huang",
+      "topics": [
+        "Hermes"
+      ],
+      "url": "https://www.youtube.com/watch?v=1CLc-VeEivk",
+      "published_at": "2026-08-25",
+      "duration_seconds": 984,
+      "description": "In this video I show you my full multiagent HermesOS setup. 📑 Video resource mentioned in video 👉 My SQL for data science interviews course (10 full interviews): Check out…"
+    },
+    {
+      "id": "pod-15b02b1fdab72e75",
+      "title": "Google Antigravity Just Broke Cursor's Whole Model",
+      "source": "podcast",
+      "creator": "Stewart Vickers AI",
+      "topics": [
+        "Antigravity"
+      ],
+      "url": "https://podcasts.apple.com/us/podcast/google-antigravity-just-broke-cursors-whole-model/id6810591228?i=1000788820531",
+      "published_at": "2026-08-24",
+      "duration_seconds": 437,
+      "description": "Google Antigravity shipped Remote Control this week and the dispatch surface for coding agents moved off the desktop. Voice-dictate a ticket from the school run, the branch is…"
+    },
+    {
+      "id": "pod-a72ae99c460f87b4",
+      "title": "Hermes Agent: Assessing Memory, Reasoning, and Reliability in Open-Source AI",
+      "source": "podcast",
+      "creator": "AI with Arun Show",
+      "topics": [
+        "Hermes"
+      ],
+      "url": "https://podcasts.apple.com/us/podcast/hermes-agent-assessing-memory-reasoning-and/id1815073420?i=1000784996922",
+      "published_at": "2026-08-22",
+      "duration_seconds": 1213,
+      "description": "In a recent demonstration, UC Berkeley student Sainik Ghosh showcases the capabilities of Hermes Agent, an open-source tool designed to retain memory across different user…"
+    },
+    {
+      "id": "web-59e9afe76b0af9fb",
+      "title": "Google's AI coding agent just escaped its own IDE",
+      "source": "website",
+      "creator": "The New Stack",
+      "topics": [
+        "Antigravity"
+      ],
+      "url": "https://thenewstack.io/google-antigravity-ide-extensions/",
+      "published_at": "2026-08-20",
+      "duration_seconds": null,
+      "description": "Antigravity extensions for VS Code, Visual Studio, JetBrains IDEs and Zed."
+    },
+    {
+      "id": "pod-2fd7a010ae863750",
+      "title": "Episode 103: Hermes Agent Four-Release Run & AI Agent Security",
+      "source": "podcast",
+      "creator": "AgentStack Daily",
+      "topics": [
+        "Hermes"
+      ],
+      "url": "https://podcasts.apple.com/us/podcast/episode-103-hermes-agent-four-release-run-ai-agent-security/id1878697245?i=1000784119415",
+      "published_at": "2026-08-18",
+      "duration_seconds": 2005,
+      "description": "Hermes Agent ships four releases in five days, OpenAI and CodeAI team up for student AI literacy, and ChatGPT launches teen controls."
+    },
+    {
+      "id": "yt-5_N84t1rUU0",
+      "title": "Hermes Agent Fundamentals In 29 Minutes",
+      "source": "youtube",
+      "creator": "Tina Huang",
+      "topics": [
+        "Hermes"
+      ],
+      "url": "https://www.youtube.com/watch?v=5_N84t1rUU0",
+      "published_at": "2026-07-20",
+      "duration_seconds": 1780,
+      "description": "My SQL for data science interviews course (10 full interviews): Check out StrataScratch for data science interview prep: 16:00 Memory Management System 25:25 Multi-agent Framework…"
+    },
+    {
+      "id": "yt-6C0FjHoN3qE",
+      "title": "Google Antigravity 2.0 Beginner's Guide",
+      "source": "youtube",
+      "creator": "Google Antigravity",
+      "topics": [
+        "Antigravity"
+      ],
+      "url": "https://www.youtube.com/watch?v=6C0FjHoN3qE",
+      "published_at": "2026-05-19",
+      "duration_seconds": 974,
+      "description": "Introducing Antigravity 2.0, a new standalone desktop application that delivers fully on that original glimpse of a truly agent-optimized experience. 🚀 Rebuilt from the ground up…"
+    },
+    {
+      "id": "web-828fe517b8d3096b",
+      "title": "Google launches Antigravity 2.0 with an updated desktop app and CLI tool at I/O 2026",
+      "source": "website",
+      "creator": "TechCrunch",
+      "topics": [
+        "Antigravity"
+      ],
+      "url": "https://techcrunch.com/2026/05/19/google-launches-antigravity-2-0-with-an-updated-desktop-app-and-cli-tool-at-io-2026/",
+      "published_at": "2026-05-19",
+      "duration_seconds": null,
+      "description": "The 2.0 launch: desktop app, CLI and SDK, with multi-agent orchestration."
+    },
+    {
+      "id": "web-1e3e64f94c566198",
+      "title": "Google flips Antigravity into an agentic dev suite",
+      "source": "website",
+      "creator": "9to5Google",
+      "topics": [
+        "Antigravity"
+      ],
+      "url": "https://9to5google.com/2026/05/19/google-antigravity-agentic-developer-suite/",
+      "published_at": "2026-05-19",
+      "duration_seconds": null,
+      "description": "How Antigravity 2.0 turned the IDE into a broader agentic developer suite."
+    },
+    {
+      "id": "web-fd97c6ab8731b6f7",
+      "title": "Hermes Agent: the complete beginner's guide",
+      "source": "website",
+      "creator": "Hermes Atlas",
+      "topics": [
+        "Hermes"
+      ],
+      "url": "https://hermesatlas.com/guide/",
+      "published_at": "2026-04-20",
+      "duration_seconds": null,
+      "description": "A long-form beginner's guide to installing and using Hermes Agent."
+    },
+    {
+      "id": "pod-8f967b141cc594ca",
+      "title": "Google Antigravity: Hands on with our new agentic development platform",
+      "source": "podcast",
+      "creator": "Google AI: Release Notes",
+      "topics": [
+        "Antigravity"
+      ],
+      "url": "https://podcasts.apple.com/us/podcast/google-antigravity-hands-on-with-our-new-agentic/id1783661110?i=1000738209341",
+      "published_at": "2025-11-25",
+      "duration_seconds": 2689,
+      "description": "Explore Antigravity, Google DeepMind’s innovative new AI developer coding product, with Varun Mohan on Release Notes. This episode dives into Antigravity as a powerful agent…"
+    },
+    {
+      "id": "web-cb27e519908b7215",
+      "title": "Build with Google Antigravity, our new agentic development platform",
+      "source": "website",
+      "creator": "Google Developers Blog",
+      "topics": [
+        "Antigravity"
+      ],
+      "url": "https://developers.googleblog.com/build-with-google-antigravity-our-new-agentic-development-platform/",
+      "published_at": "2025-11-20",
+      "duration_seconds": null,
+      "description": "Google's original announcement post. The best starting point for background."
+    }
+  ]
+}
